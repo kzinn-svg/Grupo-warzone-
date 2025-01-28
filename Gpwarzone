@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call of Duty Warzone - Regras e Comunidade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1c1c1c;
+            color: #ffffff;
+        }
+        header {
+            background-color: #333333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2em;
+            color: #f7c531;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #f7c531;
+        }
+        p, ul {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        .baloon {
+            background-color: #2e2e2e;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .baloon h3 {
+            margin: 0;
+            color: #f7c531;
+        }
+        .check-in {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .check-in button {
+            background-color: #f7c531;
+            color: #1c1c1c;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .check-in button:hover {
+            background-color: #e6b722;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333333;
+            color: #ffffff;
+        }
+        a {
+            color: #f7c531;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Call of Duty Warzone - Regras e Comunidade</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Regras do Grupo</h2>
+            <p>Bem-vindo ao Grupo de Call of Duty Warzone!</p>
+            <p>Ao entrar neste grupo, você estará concordando com as seguintes regras:</p>
+            <ul>
+                <li><strong>Respeito acima de tudo:</strong> Não serão tolerados insultos, ofensas ou atitudes desrespeitosas.</li>
+                <li><strong>Conteúdo adequado:</strong> Proibido o compartilhamento de materiais que não estejam relacionados ao jogo ou que sejam inadequados.</li>
+                <li><strong>Evite spam:</strong> Não envie links ou mensagens repetitivas que atrapalhem a interação do grupo.</li>
+                <li><strong>Participe ativamente:</strong> Colabore com dicas, estratégias e jogue junto! Este grupo é para criar conexões e melhorar nosso desempenho no jogo.</li>
+                <li><strong>Admin tem a palavra final:</strong> Qualquer comportamento fora das regras resultará em aviso ou remoção do grupo.</li>
+            </ul>
+            <p>Ao entrar, você confirma que leu e concorda com as regras acima.</p>
+        </section>
+        <section class="baloon">
+            <h3>"Junte-se ao time, mostre suas habilidades e conquiste vitórias com a gente! O campo de batalha nos une, e juntos somos imparáveis. Vamos dominar o Warzone!"</h3>
+        </section>
+        <section class="check-in">
+            <h2>Check-in de Entrada</h2>
+            <p>Você está pronto para se comportar e seguir as regras?</p>
+            <button onclick="alert('Obrigado por se comprometer! Bem-vindo ao grupo!')">Sim, vou me comportar e respeitar as regras</button>
+            <button onclick="alert('Você não poderá entrar no grupo sem aceitar as regras.')">Não, não tenho interesse em me comprometer</button>
+        </section>
+        <section>
+            <h2>Entre no Grupo!</h2>
+            <p><a href="https://chat.whatsapp.com/BtAZaykwsSnERj1t6CKbFo" target="_blank">Clique aqui para entrar no grupo do WhatsApp</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Call of Duty Warzone Community. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
